@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Diseño Web I</title>
+</head>
+<body>
+    <!---MENU DE NAVEGACION-->
+    <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#nov">Novedades</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+        <li><a href="#pie">Acerca de...</a></li>
+    </ul>
+    <!--IMAGEN DE PRESENTACION--->
+    <img src="img/1.jpg" id="inicio" alt="" style="width: 100%;">
+    <!--TITULO CON IMAGENES FLOTANTES-->
+    <h2 id="nov">Imagenes de informacion</h2>
+    <div class="clearfix">
+        <div class="contenedor_img">
+            <img src="img/1.jpg" alt="" style="width: 100%;">
+        </div>
+        <div class="contenedor_img">
+            <img src="img/2.jpg" alt="" style="width: 100%;">
+        </div>
+        <div class="contenedor_img">
+            <img src="img/3.jpg" alt="" style="width: 100%;">
+        </div>
+    </div>
+    <!---INFORMACION SOBRE LAS IMAGENES-->
+    <div class="clearfix">
+        <div class="box" style="background-color: rgb(207,206,206);">
+        <h2>Que es lorem ipsum?</h2>
+        <p>Lorem Ipsum es simplemente un texto ficticio de la industria de impresión y composición tipográfica. Lorem Ipsum ha sido el texto ficticio estándar de la industria desde el año 1500, cuando una impresora desconocida tomó una galera de tipo y la mezcló para hacer un libro de muestras. Ha sobrevivido no solo cinco siglos, sino también el salto a la composición electrónica, permaneciendo esencialmente sin cambios. Se popularizó en la década de 1960 con el lanzamiento de las hojas de Letraset que contienen pasajes de Lorem Ipsum, y más recientemente con software de publicación de escritorio como Aldus PageMaker, incluidas las versiones de Lorem Ipsum..</p>
+        <br><br><br><br><br><br>
+        </div>
+        <div class="box" style="background-color: rgb(212, 209,209);">
+            <h2>De dónde viene?</h2>
+            <p>Contrariamente a la creencia popular, Lorem Ipsum no es simplemente un texto aleatorio. Tiene raíces en una pieza de literatura latina clásica del 45 a. C., con más de 2000 años de antigüedad. Richard McClintock, profesor de latín del Hampden-Sydney College en Virginia, buscó una de las palabras latinas más oscuras, consectetur, de un pasaje de Lorem Ipsum, y al revisar las citas de la palabra en la literatura clásica, descubrió la fuente indudable. Lorem Ipsum proviene de las secciones 1.10.32 y 1.10.33 de "de Finibus Bonorum et Malorum" (Los extremos del bien y del mal) de Cicero, escrito en el año 45 antes de Cristo. Este libro es un tratado sobre la teoría de la ética, muy popular durante el Renacimiento. La primera línea de Lorem Ipsum, "Lorem ipsum dolor sit amet ..", proviene de una línea en la sección 1.10.32.</p>
+            <br><br><br>
+        </div>
+        <div class="box" style="background-color: rgb(216,214,214)">
+            <h2>De dónde viene?</h2>
+            <p>Contrariamente a la creencia popular, Lorem Ipsum no es simplemente un texto aleatorio. Tiene raíces en una pieza de literatura latina clásica del 45 a. C., con más de 2000 años de antigüedad. Richard McClintock, profesor de latín del Hampden-Sydney College en Virginia, buscó una de las palabras latinas más oscuras, consectetur, de un pasaje de Lorem Ipsum, y al revisar las citas de la palabra en la literatura clásica, descubrió la fuente indudable. Lorem Ipsum proviene de las secciones 1.10.32 y 1.10.33 de "de Finibus Bonorum et Malorum" (Los extremos del bien y del mal) de Cicero, escrito en el año 45 antes de Cristo. Este libro es un tratado sobre la teoría de la ética, muy popular durante el Renacimiento. La primera línea de Lorem Ipsum, "Lorem ipsum dolor sit amet ..", proviene de una línea en la sección 1.10.32.</p>  
+            <br><br><br>
+        </div>
+    </div>
+
+    <!---FORMULARIO DE CONTACTO-->
+    <div class="container" id="contacto">
+        <form action="#">
+            <div class="row">
+                <div class="col-25">
+                    <label for="fname">Nombre</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" name="firstname" id="fname" placeholder="Su nombre...">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="lname">Apellido</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" name="lastname" id="lname" placeholder="Su apellido...">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="country">Pais</label>
+                </div>
+                <div class="col-75">
+                    <select name="country" id="country">
+                        <option value="australia">Australia</option>
+                        <option value="canada">Canada</option>
+                        <option value="usa">USA</option>
+                        <option value="nic">Niacaragua</option>
+                    </select>        
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="subject">Asunto</label>
+                </div>
+                <div class="col-75">
+                    <textarea name="subject" id="subject" style="width: 200px;"></textarea>        
+                </div>
+            </div>
+            <div class="row">
+                <input type="submit" name="enviar" id="enviar" value="Enviar">
+            </div>
+        </form>
+    </div>
+    <footer id="pie">
+        <p>Todos los derechos reservados &copy; 2019</p>
+    </footer>
+</body>
+</html>
