@@ -33,11 +33,6 @@ li a:active{
     width: 33.33%;
     padding: 5px;
 }
-.clearfix::after{
-    content: "";
-    clear: both;
-    display: table;
-}
 
 /*CODIGO DEL CONTENIDO*/
 .box {
@@ -47,7 +42,7 @@ li a:active{
 }
 
 /*CODIGO DEL FORMULARIO*/
-input[type=text], select,textarea{
+input[type=text], select, textarea{
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
@@ -86,7 +81,7 @@ input[type=submit]:hover{
     width: 75%;
     margin-top: 6px;
 }
-.row:after{
+.row::after{
     content: "";
     display: table;
     clear: both;
